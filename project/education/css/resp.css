@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.2%;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding: 0rem 3rem;
+    text-align: center;
+}
+
+.logo img{
+    width: 4rem;
+    height: 4rem;
+    border: 0.3rem solid white;
+    border-radius: 5rem;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list{
+    display: flex;
+    width: 70%;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 1.1rem 2.6rem;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.rightbar{
+    width: 30%;
+    text-align: right;
+    padding: 0rem 2.3rem;   
+}
+
+.search{
+    padding: 0.2rem;   
+    font-size: 1.4rem;
+    border: 0.2rem solid grey;
+    border-radius: 0.9rem;
+}
+
+.background{
+    background:rgba(0, 0, 0, 0.7) url(../images/img.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firsthalf{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondhalf{
+    width: 30%;
+}
+
+.secondhalf img{
+    width: 15rem;
+    height: 15rem;
+    border: 0.3rem solid white;
+    border-radius: 7.7rem;
+}
+
+.text-big{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-small{
+    font-size: 1.6rem;
+    font-family: 'Ubuntu';
+}
+
+.btn{
+    padding: 0.8rem 1.5rem;
+    margin: 1.5rem 0rem;
+    border: 0.2rem solid white;
+    border-radius: 2rem;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 0.1rem 0.9rem;
+    vertical-align: middle;
+}
+
+.btn-dark{
+    color: black;
+    border: 0.2rem solid black;
+    border-radius: 0.4rem;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5rem 0rem;
+}
+
+.paras{
+    padding: 0rem 6.5rem;
+}
+
+.image2 img{
+    height: 25rem;
+    width: 25.1rem;
+    border-radius: 2.6rem;
+    border: 0.2rem solid black;
+    margin-top: 1.5rem;
+}
+
+.left{
+    flex-direction: row-reverse;
+}
+
+.sectiontag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    background-color: #dadbdf;
+    height: 90vh;
+}
+
+.form h2{
+    text-align: center;
+    font-size: 2.7rem;
+    padding: 2.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.tag{
+    max-width: 60%;
+    margin: 3rem auto;
+}
+
+.tag input{
+    width: 100%;
+    margin: 0.9rem 0rem;
+    border: 0.2rem solid gray;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+}
+
+.last1{
+    height: 20rem;
+    width: 100%;
+}
+
+.textfooter{
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+    padding: 1.5rem 0rem;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 1.5rem;
+    display: none;
+}
+
+.line{
+    width: 3rem;
+    height: 0.3rem;
+    background-color: white;
+    margin: 0.5rem 0.3rem;
+}
+
+
+@media only screen and (max-width: 740px){
+    .nav-list{
+        flex-direction: column; 
+    }
+    .navbar{
+        height: 32rem;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightbar{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .search{
+        width: 100%;
+    }
+    .navbar li{
+        text-align: center;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 32rem;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0rem;
+    }
+}

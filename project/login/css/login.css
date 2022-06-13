@@ -1,0 +1,56 @@
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../images/abstract-1780223__340.webp);
+    background-size: cover;
+}
+.login-box{
+    width: 280px;
+    position: absolute;
+    color: white;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+.login-box h1{
+    float: left;
+    border-bottom: 6px solid #3cbf51;
+    margin-bottom: 40px;
+    font-size: 30px;
+    padding: 15px 0px;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    padding: 13px 0;
+    font-size: 20px;
+    margin: 8px 0;
+    border-bottom: 3px solid #3cbf51;
+}
+.textbox input{
+    outline: none;
+    border: none;
+    background: none;
+    width: 80%;
+    color: white;
+    float: left;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.btn{
+    width: 100%;
+    background: none;
+    border-color: #3cbf51;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    margin: 12px 0;
+    cursor: pointer;
+}

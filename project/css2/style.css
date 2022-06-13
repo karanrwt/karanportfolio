@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    color: red;
+}
+
+.image img {
+    width: 20vw;
+    height: 22vh;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 20px 70px;
+}
+
+.image3 img {
+    width: 20vw;
+    height: 22vh;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-left: 950px;
+}
+
+.image4 img {
+    width: 20vw;
+    height: 22vh;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 20px 70px;
+}
+
+.image5 img {
+    width: 20vw;
+    height: 22vh;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-left: 950px;
+}
+
+
+.image6 img {
+    width: 20vw;
+    height: 22vh;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 20px 70px;
+}
+
+.posi {
+    position: absolute;
+}
+
+.last {
+    padding: 80px 558px;
+}
+
+.last a {
+    border-radius: 19px;
+    border: 3px solid black;
+    background-color: yellowgreen;
+    text-decoration: none;
+    padding: 6px 56px;
+    font-size: 21px;
+}
+
+.last2 {
+    padding: 80px 558px;
+}
+
+.last2 a {
+    border-radius: 19px;
+    border: 3px solid black;
+    background-color: yellowgreen;
+    text-decoration: none;
+    padding: 6px 68px;
+    font-size: 21px;
+}
+
+.last3 {
+    padding: 80px 558px;
+}
+
+.last3 a {
+    border-radius: 19px;
+    border: 3px solid black;
+    background-color: yellowgreen;
+    text-decoration: none;
+    padding: 6px 62px;
+    font-size: 21px;
+}
+
+.last4 {
+    padding: 80px 558px;
+}
+
+.last4 a {
+    border-radius: 19px;
+    border: 3px solid black;
+    background-color: yellowgreen;
+    text-decoration: none;
+    padding: 6px 50px;
+    font-size: 21px;
+}
+
+.last5 {
+    padding: 80px 558px;
+}
+
+.last5 a {
+    border-radius: 19px;
+    border: 3px solid black;
+    background-color: yellowgreen;
+    text-decoration: none;
+    padding: 6px 26px;
+    font-size: 21px;
+}

@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 14vh;
+}
+
+.left {
+    width: 35%;
+    font-size: 7.5rem;
+    padding: 0rem 11rem;
+    color: whitesmoke;
+}
+
+.nav-list {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    width: 80%;
+    background-color: whitesmoke;
+    justify-content: center;
+    border-radius: 13px;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0.5rem 5rem;
+    border-radius: 6px;
+}
+
+.navbar li a {
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: black;
+    border-radius: 6px;
+    color: whitesmoke;
+    width: 20px;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+}
+
+.information {
+    padding: 30px 65px;
+}
+
+.para {
+    font-size: 3rem;
+    color: black;
+    padding: 25px;
+}
+
+.para2 {
+    font-size: 2.5rem;
+    color: black;
+    padding: 25px;
+}
+
+.para3 {
+    font-size: 2.5rem;
+    color: black;
+    padding: 25px;
+}
+
+button {
+    background-color: #1982ff;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 20px;
+}
+button:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+
+.images img {
+    padding: 120px 110px;
+    height: 20vh;
+}
+
+.background2 {
+    background-color: #dbae0b;
+    width: 100%;
+    height: 35rem;
+}
+
+/* .para4{
+    width: 9%;
+    margin: 0rem 74rem;
+    padding: 6rem 0rem;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    color: black;
+    color: #3D2121;
+}
+
+.para5{
+    position: relative;
+    color: #333333;
+    font-size: 2rem;
+    font-family: Candara;
+    width: 40%;
+    margin: 0rem 74rem;
+}
+.para6{
+    position: relative;
+    color: #333333;
+    font-family: Candara;
+    font-size: 1.5rem;
+    width: 40%;
+    margin: 0rem 74rem;
+    padding: 3rem 0rem;
+} */
+
+
+
+/* @media only screen and (max-width :1215px) and (min-width : 0px){
+    .navbar{
+        flex-direction: column;
+        height: auto;
+    }
+    .left{
+        width: 77%;
+        text-align: center;
+    }
+    .navbar ul li a{
+        flex-direction: column;
+    }
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar li {
+        padding: 2rem 0rem;
+    }
+    .background{
+        height: auto;
+    }
+    .para2{
+        width: 30%;
+        margin: 0rem 66rem;
+    }
+    .para3{
+        width: 41%;
+        margin: 0rem 47rem;
+    }
+    .para4{
+        margin: auto;
+        width: 50%;
+        text-align: right;
+    }
+    .para5{
+        margin: auto;
+        width: 50%;
+        text-align: right;
+    }
+    .para6{
+        margin: auto;
+        width: 50%;
+        text-align: right;
+    }
+    .button2{
+        margin: auto;
+        padding: 6rem 29rem;
+        min-height: 0%;
+    }
+    .resume{
+        margin: auto;
+        padding: 7rem 46rem;
+    }
+    .background4{
+        height: 100vh;
+    }
+    .background4 h1{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .dsk-blk{
+        display: none;
+    }
+    .image3{
+        padding: 9rem 0rem;
+    }
+    .image3 img{
+        margin: auto;
+    }
+    .image5{
+        padding: 7rem 0rem;
+    }
+    .image5 img{
+        margin: auto;
+    }
+    .image6{
+        padding: 9rem 0rem;
+    }
+    .image6 img{
+        margin: auto;
+    }
+    .last2 a{
+        margin: 0rem 45rem;
+        top: 15rem;
+    }
+    .last4 a{
+        margin: 0rem 45rem;
+        top: 30rem;
+    }
+    .last5 a{
+        margin: 0rem 45rem;
+        top: 45rem;
+    }
+}
+ */

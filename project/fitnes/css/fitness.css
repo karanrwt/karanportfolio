@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+.full img{
+    width: 1349px;
+    height: 657px;
+    position: absolute;
+}
+.name{
+    color:#b1b3b5;
+    position: absolute;
+    top: 80px;
+    left: 57px;
+    font-size: 20px;
+}
+.left img{
+    width: 65px;
+    height: 40px;
+    top: 30px;
+    left: 80px;
+}
+.mid{
+    position: absolute;
+    left: 530px;
+    top: 35px;
+    font-size: 17px;
+}
+.mid li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.mid a:hover,.mid a.active{
+    text-decoration: underline;
+    color: #b1b3b5;
+}
+.mid a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.right{
+    color: aqua;
+    position: absolute;
+    left: 1100px;
+    top: 55px;
+}
+.btn{
+    color:azure;
+    padding: 3px 10px;;
+    background-color: black;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0px 20px;
+    border: none;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: #404142;
+}
+.gymform{
+    color: white;
+    top: 220px;
+    left: 150px;
+    position: absolute;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.gymform p{
+    text-align: center;
+    color: white;
+    padding: 60px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}   
+.formgroup input{
+    background-color: white;
+    padding: 2px 2px;
+    border: none;
+    text-align: center;
+    width: 300px;
+    padding: 6px;
+    margin: 8px auto;
+    border-radius: 5px;
+    display: block;
+    font-size: 13px;
+}
+.gymform button{
+    display: block;
+    width: 30%;
+    height: 30px;
+    margin: 30px auto;
+}
+.background5 h2{
+    color: red;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript tutorial</title>
+</head>
+<body>
+
+    <main>
+        <h1>Javascript Tutorial</h1>
+        <p>Fill the columns given below:</p>
+        <div class="background">
+            <input type="text" id="kkk" placeholder="Enter your name">
+            <p></p>
+            <span id="ll"></span>
+            <p></p>
+            <input type="button" value="submit" onclick="jjj()">
+        </div>
+        <div class="tutorial">
+            <h1>Step 1:</h1>
+            <p>Press submit button without entering name</p>
+            <h1>Step 2:</h1>
+            <p>Enter your name is less than 5 and press submit button</p>
+            <h1>Step 3:</h1>
+            <p>Enter your name greater than 5 and press submit button</p>
+            
+        </div>
+
+
+
+
+    </main>
+    <script type="text/javascript">
+        function jjj(){
+            var x=document.getElementById("kkk").value;
+            if(x=="")
+                {
+                    document.getElementById("ll").innerHTML="Fill your name";
+                    document.getElementById("ll").style.color="red";
+                      }
+            else if(x.length<5)
+                {
+                    document.getElementById("ll").innerHTML="Fill your name correct name greater than 5";
+                    document.getElementById("ll").style.color="blue";
+                }
+            else {
+                document.getElementById("ll").innerHTML="WELCOME  "+x;
+                document.getElementById("ll").style.color="green";
+            }
+            
+            
+        }
+        
+        
+        </script>
+</body>
+</html>
